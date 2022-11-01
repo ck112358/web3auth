@@ -3,11 +3,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { initializeApp } from "firebase/app";
-import 'firebaseConfig' 
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 
 
 export default function Home() {
