@@ -1,6 +1,10 @@
 //holder file in case we need to move
 //the firebase config info away from the index.js file
 
+import 'firebaseConfig' 
+import { initializeApp } from "firebase/app";
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
